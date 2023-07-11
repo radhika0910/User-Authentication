@@ -7,14 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "module": {
-    "type": "module"
-  },
+  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
-    "i": "^0.3.7"
+    "i": "^0.3.7",
+    "mongoose": "^7.3.2"
   }
 }
