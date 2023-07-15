@@ -16,7 +16,8 @@ app.use(cookieParser());
 // Connect to the MongoDB database
 async function connectToDatabase() {
   try {
-    await mongoose.connect('mongodb+srv://demo:Radhika123456@3dviewer.fs33ycy.mongodb.net/', {
+    // Add your own database string here 
+    await mongoose.connect('mongodb+srv://demo:*****@3dviewer.fs33ycy.mongodb.net/', {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
